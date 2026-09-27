@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -14 360 400" width="100%" height="100%">
+  <!-- Top Text: ESTD. 1996 -->
+  <text x="180" y="24" text-anchor="middle" fill="#d32f2f" font-family="'Inter', Arial, sans-serif" font-size="32" font-weight="900" letter-spacing="2">ESTD. 1996</text>
+
+  <!-- Outer Circle -->
+  <circle cx="180" cy="205" r="162" fill="none" stroke="#388e3c" stroke-width="2.5" />
+  
+  <!-- Inner Circle -->
+  <circle cx="180" cy="205" r="128" fill="none" stroke="#388e3c" stroke-width="2" />
+
+  <defs>
+    <!-- Top Arc Path for RAJASTHAN TRADING & MANUFACTURES -->
+    <path id="topArc" d="M 34,205 A 146,146 0 1,1 326,205" fill="none" />
+    <!-- Bottom Arc Path for INNOVATION, TRUST, QUALITY -->
+    <path id="bottomArc" d="M 326,205 A 146,146 0 0,1 34,205" fill="none" />
+  </defs>
+
+  <!-- Top Curved Text in RED -->
+  <text fill="#d32f2f" font-family="'Inter', 'Arial Black', Arial, sans-serif" font-size="15" font-weight="900" letter-spacing="1">
+    <textPath href="#topArc" startOffset="50%" text-anchor="middle">RAJASTHAN TRADING &amp; MANUFACTURES</textPath>
+  </text>
+
+  <!-- Bottom Curved Text in GREEN -->
+  <text fill="#388e3c" font-family="'Inter', Arial, sans-serif" font-size="13" font-weight="700" letter-spacing="1.2">
+    <textPath href="#bottomArc" startOffset="50%" text-anchor="middle">INNOVATION, TRUST , QUALITY</textPath>
+  </text>
+
+  <!-- Center Plant Graphic -->
+  <g transform="translate(180, 182)">
+    <!-- Center Vertical Stem Split Green/Red -->
+    <path d="M -3,25 C -3,-15 -2,-35 -5,-65 C -3,-70 0,-75 0,-75 L 0,25 Z" fill="#388e3c" />
+    <path d="M 0,-75 C 0,-75 3,-70 5,-65 C 2,-35 3,-15 3,25 L 0,25 Z" fill="#d32f2f" />
+
+    <!-- Top Center Leaf (Split Green/Red) -->
+    <path d="M 0,-75 C -15,-55 -12,-35 0,-25 L 0,-75 Z" fill="#388e3c" />
+    <path d="M 0,-75 C 12,-35 15,-55 0,-75 Z" fill="#d32f2f" />
+
+    <!-- Left Green Leaves -->
+    <path d="M -3,-45 C -25,-55 -45,-38 -35,-20 C -20,-15 -5,-30 -3,-45 Z" fill="#388e3c" />
+    <path d="M -3,-25 C -35,-32 -55,-12 -42,8 C -25,12 -5,-10 -3,-25 Z" fill="#388e3c" />
+    <path d="M -3,-5 C -42,0 -60,25 -42,40 C -22,35 -3,15 -3,-5 Z" fill="#388e3c" />
+
+    <!-- Right Red Leaves -->
+    <path d="M 3,-45 C 25,-55 45,-38 35,-20 C 20,-15 5,-30 3,-45 Z" fill="#d32f2f" />
+    <path d="M 3,-25 C 35,-32 55,-12 42,8 C 25,12 5,-10 3,-25 Z" fill="#d32f2f" />
+    <path d="M 3,-5 C 42,0 60,25 42,40 C 22,35 3,15 3,-5 Z" fill="#d32f2f" />
+  </g>
+
+  <!-- Center Stylized RTM Text in RED -->
+  <g transform="translate(180, 250)">
+    <text x="0" y="0" text-anchor="middle" fill="#d32f2f" font-family="'Arial Black', 'Inter', sans-serif" font-size="40" font-weight="900" font-style="italic" letter-spacing="2">RTM</text>
+  </g>
+</svg>
