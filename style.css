@@ -188,6 +188,7 @@ ul { list-style: none; }
   height: 90px;
   width: auto;
   object-fit: contain;
+  border-radius: 50%;
 }
 .logo-title {
   font-size: 1.25rem;
@@ -1173,9 +1174,13 @@ ul { list-style: none; }
   gap: 12px;
 }
 .footer-logo-img {
-  height: 60px;
+  height: 65px;
   width: auto;
-  filter: brightness(0) invert(1);
+  object-fit: contain;
+  background: #ffffff;
+  border-radius: 50%;
+  padding: 2px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
 }
 .footer-brand-text h3 {
   font-size: 0.85rem;
